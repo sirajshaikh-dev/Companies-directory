@@ -1,16 +1,21 @@
 
-import CompanyCards from './Components/CompanyCards'
-import FilterNavbar from './Components/FilterNavbar'
+import CompanyGrid from './Components/CompanyGrid'
+import Controls from './Components/Controls'
+import Header from './Components/Header'
+import { CompaniesProvider } from './Context/CompaniesContext'
 import './index.css'
-
 function App() {
 
   return (
-    <>
-      <h1 className='bg-amber-400'>Frontline Edutech Assessment</h1>
-      <FilterNavbar/>
-      <CompanyCards />
-    </>
+    <CompaniesProvider>
+      <div className="min-h-screen p-6 bg-page">
+        <div className="max-w-7xl mx-auto">
+          <Header />
+          <Controls />
+          <CompanyGrid />
+        </div>
+      </div>
+    </CompaniesProvider>
   )
 }
 
