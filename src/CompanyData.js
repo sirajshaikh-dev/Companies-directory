@@ -1,0 +1,17 @@
+export const CompanyData = [
+  { id: 1, name: "Tata Consultancy Services", industry: "IT Services", location: "Mumbai, Maharashtra", logo: "https://via.placeholder.com/60?text=TCS" },
+  { id: 2, name: "Reliance Industries", industry: "Conglomerate", location: "Mumbai, Maharashtra", logo: "https://via.placeholder.com/60?text=RIL" },
+  { id: 3, name: "Infosys", industry: "IT Services", location: "Bengaluru, Karnataka", logo: "https://via.placeholder.com/60?text=INFY" },
+  { id: 4, name: "HDFC Bank", industry: "Finance", location: "Mumbai, Maharashtra", logo: "https://via.placeholder.com/60?text=HDFC" },
+  { id: 5, name: "Wipro", industry: "IT Services", location: "Bengaluru, Karnataka", logo: "https://via.placeholder.com/60?text=Wipro" },
+  { id: 6, name: "Mahindra & Mahindra", industry: "Automotive", location: "Mumbai, Maharashtra", logo: "https://via.placeholder.com/60?text=M&M" },
+  { id: 7, name: "Bharti Airtel", industry: "Telecommunications", location: "New Delhi, Delhi", logo: "https://via.placeholder.com/60?text=Airtel" },
+  { id: 8, name: "HCL Technologies", industry: "IT Services", location: "Noida, UP", logo: "https://via.placeholder.com/60?text=HCL" },
+  { id: 9, name: "ITC Limited", industry: "FMCG", location: "Kolkata, West Bengal", logo: "https://via.placeholder.com/60?text=ITC" },
+  { id: 10, name: "Larsen & Toubro", industry: "Construction", location: "Mumbai, Maharashtra", logo: "https://via.placeholder.com/60?text=L&T" },
+  { id: 11, name: "Sun Pharma", industry: "Healthcare", location: "Mumbai, Maharashtra", logo: "https://via.placeholder.com/60?text=Sun" },
+  { id: 12, name: "Maruti Suzuki", industry: "Automotive", location: "New Delhi, Delhi", logo: "https://via.placeholder.com/60?text=Maruti" },
+  { id: 13, name: "Asian Paints", industry: "Chemicals", location: "Mumbai, Maharashtra", logo: "https://via.placeholder.com/60?text=Asian" },
+  { id: 14, name: "Bajaj Finance", industry: "Finance", location: "Pune, Maharashtra", logo: "https://via.placeholder.com/60?text=Bajaj" },
+  { id: 15, name: "Dr. Reddy's Laboratories", industry: "Healthcare", location: "Hyderabad, Telangana", logo: "https://via.placeholder.com/60?text=DrReddy" },
+];
